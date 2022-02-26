@@ -1,0 +1,84 @@
+BODY {
+    background: #18226d;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    height: 100%;
+  
+       
+        }
+  
+  canvas {
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    top: 0px;
+    
+  }
+  
+ 
+  
+  h1 {
+    color: #3068a7;
+    padding-bottom: 0px;
+    margin-bottom: 1%;
+  }
+  
+  h2 {
+    color: #767681;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .logo {
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 8rem;
+  }
+  
+  
+  .top {
+    padding-bottom: 5rem;
+  }
+  
+ 
+  
+  
+  
+  
+
+  
+  
+  
+  
+  /* Mobile first queries */
+  
+  
+  /* Larger than mobile */
+  
+  @media (min-width: 400px) {}
+  
+  
+  /* Larger than phablet */
+  
+  @media (min-width: 550px) {}
+  
+  
+  /* Larger than tablet */
+  
+  @media (min-width: 750px) {}
+  
+  
+  /* Larger than desktop */
+  
+  @media (min-width: 1000px) {}
+  
+  
+  /* Larger than Desktop HD */
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
