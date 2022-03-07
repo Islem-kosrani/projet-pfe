@@ -10,6 +10,9 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { SurveillerComponent } from './surveiller/surveiller.component';
 import { Accueil2Component } from './accueil2/accueil2.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ProfilComponent } from './profil/profil.component';
+import { PublierComponent } from './publier/publier.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,10 @@ import { Accueil2Component } from './accueil2/accueil2.component';
     InscriptionComponent,
     ConnexionComponent,
     SurveillerComponent,
-    Accueil2Component
+    Accueil2Component,
+    NavbarComponent,
+    ProfilComponent,
+    PublierComponent
   ],
   imports: [
     BrowserModule,

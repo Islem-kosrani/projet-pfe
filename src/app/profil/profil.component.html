@@ -1,5 +1,3 @@
-
-
 <div class="login-root">
     <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
       <div class="loginbackground box-background--white padding-top--64">
@@ -40,34 +38,53 @@
         <div class="formbg-outer">
           <div class="formbg">
             <div class="formbg-inner padding-horizontal--48">
-              <span class="padding-bottom--15">Connectez-vous à votre compte</span>
-              <form id="stripe-login">
-                <div class="field padding-bottom--24">
-                  <label for="email">Email</label>
-                  <input type="email" name="email">
+              <span class="padding-bottom--15">Modifier Votre Compte</span>
+              
+        
+                   
+                      <div class="field padding-bottom--24">
+                  <label for="Nom">NOM</label>
+                  <input type="text" name="Nom">
                 </div>
                 <div class="field padding-bottom--24">
                   <div class="grid--50-50">
-                    <label for="password">Mot de passe</label>
-                    <div class="reset-pass">
-                      <a href="#">Mot de passe oublié?</a>
-                    </div>
+                    <label for="Prenom">PRENOM</label>
+                   
                   </div>
-                  <input type="password" name="password">
+                  <input type="text" name="Prenom">
                 </div>
+                <div class="field padding-bottom--24">
+                  <label for="Email">EMAIL</label>
+                  <input type="text" name="Nom">
+                </div>
+  
+                  <div class="field padding-bottom--24">
+                    <div class="grid--50-50">
+                      <label for="password"> MOT DE PASSE ACTUEL</label>
+                    
+                      </div>
+                      <input type="password" name="password">
+                      </div>
+                      <div class="field padding-bottom--24">
+                        <div class="grid--50-50">
+                          <label for="password">NOUVEAU MOT DE PASSE</label>
+                        
+                          </div>
+                          <input type="password" name="password">
+                          </div>
+  
+                         
+                            
                 <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
                  
                
                 <div class="field padding-bottom--24">
-                    <button   routerLink="/accueil2" type="submit" >Connexion </button> 
+                    <button routerLink="/profil" type="submit" >Modifier</button> 
                 </div>
                 
            
-            </div>
+           
           
-          <div class="footer-link padding-top--24">
-            <span>Vous n'avez pas de compte ? <a  routerLink="/inscription">
-                S'inscrire</a></span>
+         
               
            
-        
