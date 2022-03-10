@@ -13,6 +13,9 @@ import { Accueil2Component } from './accueil2/accueil2.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfilComponent } from './profil/profil.component';
 import { PublierComponent } from './publier/publier.component';
+import { ChercherlivreurComponent } from './chercherlivreur/chercherlivreur.component';
+import { MissionsComponent } from './missions/missions.component';
+import { DetailsComponent } from './details/details.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +27,10 @@ import { PublierComponent } from './publier/publier.component';
     Accueil2Component,
     NavbarComponent,
     ProfilComponent,
-    PublierComponent
+    PublierComponent,
+    ChercherlivreurComponent,
+    MissionsComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
